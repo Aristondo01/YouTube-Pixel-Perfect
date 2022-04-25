@@ -10,7 +10,7 @@ export default{
             directory: 'dist',
         },
         compress:true,
-        port: 9000,
+        port: 3000,
     },
     module: {
         rules:[{
@@ -20,7 +20,11 @@ export default{
         {
             test: /\.(png|jpg|gif|svg|mp3)$/,
             use: [{ loader: 'file-loader' }],
-          },
+        },
+        {
+            test: /\.css$/,
+            use: ["style-loader", "css-loader"],
+        },
         ]
     },
 }

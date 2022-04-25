@@ -1,9 +1,9 @@
 import {createRoot} from "react-dom/client"
-import styles from './style.js'
+import "./index.css"
 const App = () => {
     return(
         
-        <div css={styles.indexs}>
+        <div className="indexs">
         </div>)
 }
 
