@@ -1,0 +1,45 @@
+.Barra{
+    background-color:#202020;
+    display:flex;
+    width:100vw;
+    height:56px;
+    margin:0;
+    align-items: start;
+    opacity: 0.5;
+    flex-direction: row;
+}
+.search
+{
+    display: flex;
+    width: 728px;
+    height:40px;
+    align-self: center;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.micro{
+    display:flex;
+    height:40px;
+    width: 40px;
+    background-color:#181818;
+    border-radius: 50px;
+    border: 0;
+    margin-left: 8px;
+}
+
+.lupa{
+    display:flex;
+    height:40px;
+    width: 64px;
+    background-color:#313131;
+    border:0;
+}
+
+input{
+    display:flex;
+    background-color:#121212;
+    height:40px;
+    width: 525px;
+    border: 1px solid #313131;
+}

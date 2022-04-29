@@ -1,30 +1,33 @@
-import webpack from "webpack"
-export default{
+export default {
     mode: 'development',
     entry: './src/index.js',
-    output:{
+    output: {
         filename: 'bundle.js',
+        // publicPath:'/',
     },
     devServer: {
-        static: {
-            directory: 'dist',
-        },
-        compress:true,
+        static:
+        { directory: 'dist' },
+        compress: true,
         port: 3000,
     },
     module: {
-        rules:[{
+        rules: [{
             test: /\.jsx?$/,
-            use: ['babel-loader']
+            use: ['babel-loader'],
         },
         {
-            test: /\.(png|jpg|gif|svg|mp3)$/,
+            test: /\.(mp3)$/,
             use: [{ loader: 'file-loader' }],
         },
         {
-            test: /\.css$/,
-            use: ["style-loader", "css-loader"],
+            test: /\.(png|jpg|gif|svg)$/,
+            type: 'asset/resource',
         },
-        ]
+        {
+            test: /\.css$/,
+            use: ['style-loader', 'css-loader'],
+        },
+        ],
     },
 }
