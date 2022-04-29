@@ -5,8 +5,15 @@
     height:56px;
     margin:0;
     align-items: start;
-    opacity: 0.5;
     flex-direction: row;
+    padding-left: 11px;
+    padding-right: 16px;
+
+}
+::placeholder{
+    font-size: 16px;
+    padding-left: 4px;
+    font-family: 'Roboto','Noto',sans-serif;
 }
 .search
 {
@@ -15,7 +22,26 @@
     height:40px;
     align-self: center;
     flex-direction: row;
-    justify-content: end;
+    margin-left: 266;
+}
+.left
+{
+    display: flex;
+    width: 169px;
+    height:56px;
+    align-self: center;
+    flex-direction: row;
+}
+
+.right
+{
+    display: flex;
+    width: 225px;
+    height:40px;
+    align-self: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 91px;
 }
 
 .micro{
@@ -26,20 +52,126 @@
     border-radius: 50px;
     border: 0;
     margin-left: 8px;
+    background-image: url('../Images/micro.png');
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Country
+{
+    color: #AAAAAA;
+    width: 12.79px;
+    height: 44px;
+    font-size: 9.21px;
+    align-self:center;
+    font-family:'Roboto', Arial, sans-serif;
+    margin-top: 15px;
+    margin-left: 4;
+}
+
+.lines{
+    display:flex;
+    height:24px;
+    width: 24px;
+    background-color:transparent;
+    border: 0;
+    background-image: url('../Images/lines3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-left: 13px;
+    
+}
+.camera{
+    display:flex;
+    height:26px;
+    width: 26px;
+    background-color:transparent;
+    border: 0;
+    background-image: url('../Images/nuevo video.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-right: 27px;
+    background-position: center;
+    
+}
+
+.box{
+    display:flex;
+    height:16px;
+    width: 16px;
+    background-color:transparent;
+    border: 0;
+    background-image: url('../Images/aplicaciones.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-right: 27px;
+    background-position: center;
+    
+}
+.bell{
+    display:flex;
+    height: 24px;
+    width: 24px;
+    background-color:transparent;
+    border: 0;
+    background-image: url('../Images/campana.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-right: 26px;
+    background-position: center;
+    
+}
+
+.profile{
+    display:flex;
+    height: 32px;
+    width: 32px;
+    border-radius: 50px;
+    background-color:transparent;
+    border: 0;
+    background-image: url('../Images/perfil.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-left: 4px;
+    background-position: center;
+    
 }
 
 .lupa{
     display:flex;
     height:40px;
-    width: 64px;
+    width: 63px;
     background-color:#313131;
     border:0;
+    background-image: url('../Images/lupa.png');
+    background-size: 32px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1px;
 }
 
 input{
     display:flex;
     background-color:#121212;
     height:40px;
-    width: 525px;
+    width: 539px;
     border: 1px solid #313131;
+}
+
+.Logo{
+    display:flex;
+    background-image: url('../Images/YT logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 20px;
+    align-self: center;
+    margin-left: 24px;
+
 }

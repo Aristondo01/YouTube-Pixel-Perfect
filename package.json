@@ -7,7 +7,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
-    "lint": "eslint src --ext .js"
+    "lint": "eslint src/**"
 
   },
   "author": "Sebastian Aristondo",
