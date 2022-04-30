@@ -1,0 +1,42 @@
+.Menu-Container{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    background-color:#202020;
+    width: 240px;
+    height: 670px;
+    padding-top: 12px;
+}
+
+.Boton-Container{
+    display: flex;
+    width: 224px;
+    height: 40px;
+    background-color:#383838;
+}
+
+.Boton1-Container{
+    display: flex;
+    width: 224px;
+    height: 40px;
+    background-color:#202020;
+}
+
+hr{
+    display: flex;
+    width: 224px;
+    background-color: #383838;
+    border: 0;
+    height: 0.5px;
+    margin: 0;
+    margin-top: 12;
+    margin-top: 12;
+}
+
+
+text{
+    display: flex;
+    color: white;
+    align-self: center;
+
+}

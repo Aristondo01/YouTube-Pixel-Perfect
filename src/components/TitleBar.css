@@ -1,7 +1,7 @@
 .Barra{
     background-color:#202020;
     display:flex;
-    width:100vw;
+    width:1509px;
     height:56px;
     margin:0;
     align-items: start;
@@ -44,18 +44,28 @@
     margin-left: 91px;
 }
 
-.micro{
+.micro-button{
     display:flex;
+    justify-content: center;
     height:40px;
     width: 40px;
     background-color:#181818;
     border-radius: 50px;
     border: 0;
     margin-left: 8px;
-    background-image: url('../Images/micro.png');
-    background-size: 18px;
+}
+
+.micro-image{
+    display:flex;
+    align-self: center;
+    height:24px;
+    width: 24px;
+    background-image: url('../Images/micro.svg');
+    background-size: 24px;
     background-repeat: no-repeat;
     background-position: center;
+    filter: invert(97%) sepia(2%) saturate(5%) hue-rotate(91deg) brightness(116%) contrast(100%);
+
 }
 
 .Country
@@ -85,31 +95,32 @@
 }
 .camera{
     display:flex;
-    height:26px;
-    width: 26px;
-    background-color:transparent;
+    height:24px;
+    width: 24px;
     border: 0;
-    background-image: url('../Images/nuevo video.png');
+    background-image: url('../Images/camara.svg');
     background-size: contain;
     background-repeat: no-repeat;
     align-self: center;
-    margin-right: 27px;
+    margin-right: 24px;
     background-position: center;
-    
+    filter: invert(97%) sepia(2%) saturate(5%) hue-rotate(91deg) brightness(116%) contrast(100%);
 }
 
 .box{
     display:flex;
-    height:16px;
-    width: 16px;
+    height:24px;
+    width: 24px;
     background-color:transparent;
     border: 0;
-    background-image: url('../Images/aplicaciones.png');
+    background-image: url('../Images/cuadros.svg');
     background-size: contain;
     background-repeat: no-repeat;
     align-self: center;
-    margin-right: 27px;
+    margin-right: 24px;
     background-position: center;
+    filter: invert(97%) sepia(2%) saturate(5%) hue-rotate(91deg) brightness(116%) contrast(100%);
+
     
 }
 .bell{
@@ -118,12 +129,14 @@
     width: 24px;
     background-color:transparent;
     border: 0;
-    background-image: url('../Images/campana.png');
+    background-image: url('../Images/campana.svg');
     background-size: contain;
     background-repeat: no-repeat;
     align-self: center;
     margin-right: 26px;
     background-position: center;
+    filter: invert(97%) sepia(2%) saturate(5%) hue-rotate(91deg) brightness(116%) contrast(100%);
+
     
 }
 
@@ -143,17 +156,30 @@
     
 }
 
-.lupa{
+.lupa-button{
     display:flex;
+    justify-content: center;
     height:40px;
     width: 63px;
     background-color:#313131;
     border:0;
-    background-image: url('../Images/lupa.png');
-    background-size: 32px ;
-    background-position: center;
-    background-repeat: no-repeat;
     border-radius: 1px;
+    
+}
+
+.lupa-image{
+    display:flex;
+    align-self: center;
+    height:24px;
+    width: 24px;
+    border:0;
+    background-image: url('../Images/lupa.svg');
+    background-size: 24px ;
+    background-position: center;
+    margin-left: -1;
+    background-repeat: no-repeat;
+    filter: invert(97%) sepia(2%) saturate(5%) hue-rotate(91deg) brightness(116%) contrast(100%);
+    
 }
 
 input{
@@ -162,6 +188,9 @@ input{
     height:40px;
     width: 539px;
     border: 1px solid #313131;
+    padding-top: 2;
+    font-weight: 400;
+    font-family:'Roboto', Arial, sans-serif;
 }
 
 .Logo{

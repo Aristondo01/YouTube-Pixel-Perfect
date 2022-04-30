@@ -9,8 +9,12 @@ const TitleBar = () => (
         </div>
         <div className="search">
             <input type="text" placeholder="Buscar" />
-            <button type="button" className="lupa">{}</button>
-            <button type="button" className="micro">{}</button>
+            <button type="button" className="lupa-button">
+                <div className="lupa-image" />
+            </button>
+            <button type="button" className="micro-button">
+                <div className="micro-image" />
+            </button>
         </div>
         <div className="right">
             <div className="camera" />
