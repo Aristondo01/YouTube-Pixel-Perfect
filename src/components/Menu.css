@@ -9,6 +9,7 @@
 }
 
 .Boton-Container{
+    cursor: pointer;
     display: flex;
     width: 224px;
     height: 40px;
@@ -16,10 +17,21 @@
 }
 
 .Boton1-Container{
+    cursor: pointer;
     display: flex;
     width: 224px;
     height: 40px;
     background-color:#202020;
+}
+
+.Boton1-Container:hover{
+    cursor: pointer;
+    background-color:#383838;
+}
+
+.Boton-Container:hover{
+    cursor: pointer;
+    background-color:#4c4c4c;
 }
 
 .Icon-container{
@@ -47,7 +59,7 @@ hr{
     height: 0.5px;
     margin: 0;
     margin-top: 12;
-    margin-top: 12;
+    margin-bottom: 12;
 }
 
 
