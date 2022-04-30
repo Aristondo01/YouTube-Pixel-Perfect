@@ -1,14 +1,26 @@
 .Menu-Container{
     display: flex;
-    justify-content: start;
     flex-direction: column;
     background-color:#202020;
     width: 240px;
     height: 670px;
     padding-top: 12px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
+.Menu-Container::-webkit-scrollbar{
+    background-color: transparent;
+}
+
+.Menu-Container::-webkit-scrollbar-thumb{
+    background: #4c4c4c;
+    border-radius: 5px;
+}
+
+
 .Boton-Container{
+    display: flex;
     cursor: pointer;
     display: flex;
     width: 224px;
@@ -17,6 +29,7 @@
 }
 
 .Boton1-Container{
+    display: flex;
     cursor: pointer;
     display: flex;
     width: 224px;
@@ -34,6 +47,17 @@
     background-color:#4c4c4c;
 }
 
+.titulo
+{
+    color: #AAAAAA;
+    font-size: 14px;
+    font-family:'Roboto', Arial, sans-serif;
+    width: 224;
+    font-weight: 500;
+    margin-bottom: 2px;
+    margin-left: 45;
+}
+
 .Icon-container{
     display:flex;
     align-self: center;
@@ -46,9 +70,21 @@
     margin-left: 24;
     cursor: pointer;
     filter: invert(97%) sepia(2%) saturate(5%) hue-rotate(91deg) brightness(116%) contrast(100%);
-    
+}
 
-
+.perfil-container{
+    display:flex;
+    align-self: center;
+    height:24px;
+    width: 24px;
+    border:0;
+    background-size: 24px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 24;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 4;
 }
 
 hr{
@@ -74,5 +110,17 @@ text{
     font-size: 14;
     font-weight: 400;
     font-family:'Roboto', Arial, sans-serif;
+}
 
+.profile-name{
+    display: flex;
+    color: white;
+    align-self: center;
+    height: 20;
+    margin-top: 7;
+    align-self: center;
+    margin-left: 24;
+    font-size: 14;
+    font-weight: 400;
+    font-family:'Roboto', Arial, sans-serif;
 }
