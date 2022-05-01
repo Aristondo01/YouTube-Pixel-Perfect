@@ -10,30 +10,40 @@
 }
 
 .Menu-Container::-webkit-scrollbar{
-    background-color: transparent;
+    width: 10px;
+    background-color: #202020;
+    
 }
 
 .Menu-Container::-webkit-scrollbar-thumb{
-    background: #4c4c4c;
+    visibility: hidden;
+    
+}
+
+.Menu-Container:hover::-webkit-scrollbar-thumb{
+    display: flex;
+    background: #707170;
     border-radius: 5px;
+    visibility: visible;
+
 }
 
 
 .Boton-Container{
+    
     display: flex;
     cursor: pointer;
-    display: flex;
     width: 224px;
-    height: 40px;
+    min-height: 40px;
     background-color:#383838;
 }
 
 .Boton1-Container{
+    
     display: flex;
     cursor: pointer;
-    display: flex;
     width: 224px;
-    height: 40px;
+    min-height: 40px;
     background-color:#202020;
 }
 
@@ -55,7 +65,7 @@
     width: 224;
     font-weight: 500;
     margin-bottom: 2px;
-    margin-left: 45;
+    margin-left: 35;
 }
 
 .Icon-container{
@@ -81,19 +91,19 @@
     background-size: 24px ;
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: 24;
+    margin-left: 24px;
     cursor: pointer;
     border-radius: 50px;
-    margin-top: 4;
+    margin-top: 4px;
 }
 
 hr{
     display: flex;
     width: 224px;
     background-color: #383838;
-    border: 0;
-    height: 0.5px;
-    margin: 0;
+    border: 0px;
+    min-height: 0.5px;
+    margin: 0px;
     margin-top: 12;
     margin-bottom: 12;
 }
@@ -103,7 +113,7 @@ text{
     display: flex;
     color: white;
     align-self: center;
-    height: 20;
+    min-height: 20;
     margin-top: 6.5;
     align-self: center;
     margin-left: 24;

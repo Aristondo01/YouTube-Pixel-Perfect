@@ -13,16 +13,33 @@ import btc from '../Images/BTC.jpg'
 import chuy from '../Images/Chuy.jpg'
 import enchufe from '../Images/enchufe.jpg'
 import sergio from '../Images/Sergio.jpg'
-/* import xn from '../Images/XN.jpg'
+import xn from '../Images/XN.jpg'
 import xifra from '../Images/Xifra.jpg'
-import grefg from '../Images/Grefg.jpg' */
+import grefg from '../Images/Grefg.jpg'
+import ytp from '../Images/YTP.svg'
+import vg from '../Images/videogames.svg'
+import directo from '../Images/directo.svg'
+import learn from '../Images/learn.svg'
+import sport from '../Images/sport.svg'
+import config from '../Images/config.svg'
+import denuncia from '../Images/historiald.svg'
+import ayuda from '../Images/Ayuda.svg'
+import sugerencia from '../Images/sugerencia.svg'
 
 const menu = [['Explorar', explorar], ['Shorts', shorts], ['Suscripciones', sub]]
+
 const menu2 = [['Biblioteca', bib], ['Historial', Historial], ['Mis vídeos', Myvideos],
     ['Ver más tarde', tarde], ['Vídeos que me gustan', liked], ['Mostrar más', more]]
-const menu3 = [['Bitcoin al dia', btc], ['Chuy Almada', chuy], ['enchufetv', enchufe],
-    ['Sergio Peñuñuri', sergio]]/* , ['TheGrefg', grefg],
-['Xifra Lifestyle', xifra], ['Xifra Nation', xn]] */
+
+const Suscripciones = [['Bitcoin al dia', btc], ['Chuy Almada', chuy], ['enchufetv', enchufe],
+    ['Sergio Peñuñuri', sergio], ['TheGrefg', grefg], ['Xifra Lifestyle', xifra],
+    ['Xifra Nation', xn]]
+
+const moreYT = [['YouTube Premium', ytp], ['Videojuegos', vg], ['Directo', directo],
+    ['Aprendizaje', learn], ['Deportes', sport]]
+
+const extras = [['Configuración', config], ['Historial de denuncias', denuncia], ['Ayuda', ayuda],
+    ['Enviar sugerencia', sugerencia]]
 
 const Menu = () => (
     <div className="Menu-Container">
@@ -45,12 +62,32 @@ const Menu = () => (
         ))}
         <hr />
         <text className="titulo">SUSCRIPCIONES</text>
-        {menu3.map((obj) => (
+        {Suscripciones.map((obj) => (
             <div className="Boton1-Container">
                 <div className="perfil-container" style={{ backgroundImage: `url(${obj[1]})` }} />
                 <text className="profile-name">{obj[0]}</text>
             </div>
         ))}
+        <div className="Boton1-Container">
+            <div className="Icon-container" style={{ backgroundImage: `url(${more})` }} />
+            <text className="profile-name">Mostrar 2 más</text>
+        </div>
+        <hr />
+        <text className="titulo">MÁS DE YOUTUBE</text>
+        {moreYT.map((obj) => (
+            <div className="Boton1-Container">
+                <div className="Icon-container" style={{ backgroundImage: `url(${obj[1]})` }} />
+                <text>{obj[0]}</text>
+            </div>
+        ))}
+        <hr />
+        {extras.map((obj) => (
+            <div className="Boton1-Container">
+                <div className="Icon-container" style={{ backgroundImage: `url(${obj[1]})` }} />
+                <text>{obj[0]}</text>
+            </div>
+        ))}
+        <hr />
     </div>
 )
 
