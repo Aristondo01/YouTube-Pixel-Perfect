@@ -6,3 +6,16 @@
     margin:0;
     flex-direction: column;
 }
+
+.cuerpo{
+    display: flex;
+    margin: 0;
+    background-color: #181818;
+    flex-direction: row;
+    min-height: auto;
+    max-height: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+
+}
