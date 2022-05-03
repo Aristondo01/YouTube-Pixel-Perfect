@@ -88,6 +88,19 @@ const Menu = () => (
             </div>
         ))}
         <hr />
+        <div className="condiciones">Información Prensa</div>
+        <div className="condiciones">Derechos de autor Contactar</div>
+        <div className="condiciones">Creadores Publicidad</div>
+        <div className="condiciones">Desarrolladores</div>
+        <div className="espacio">s</div>
+        <div className="condiciones">Términos Provacidad</div>
+        <div className="condiciones">Políticas y seguridad</div>
+        <div className="condiciones">Cómo funciona YouTube</div>
+        <div className="condiciones">Probar funciones nuevas</div>
+        <div className="espacio">s</div>
+        <div className="registro">© 2022 Google LLC</div>
+        <div className="espacio">s</div>
+
     </div>
 )
 
