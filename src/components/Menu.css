@@ -1,3 +1,4 @@
+
 .Menu-Container{
     display: flex;
     flex-direction: column;
@@ -32,7 +33,7 @@
 .Menu-Container::-webkit-scrollbar-track{
     border-radius: 0;
     margin: 4px;
-    margin-block-start: 25px;
+    margin-block-start: 4px;
 }
 
 

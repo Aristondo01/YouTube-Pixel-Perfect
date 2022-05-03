@@ -2,17 +2,18 @@
 {
     display: flex;
     flex-direction: row;
-    width: 1297px;
-    height: 58px;
+    width: 1248px;
+    height: 56px;
     background-color: #202020;
-    margin-left: 24px;
-    margin-right: 24px;
+    padding-left: 22px;
+    padding-right: 22px;
+    overflow-x: scroll;
+    overflow-y: hidden;
 
 }
 .contenido::-webkit-scrollbar{
     width: 0px;
     height: 0px;
-    visibility: hidden;
 }
 
 .hr-carrusel{
@@ -27,40 +28,50 @@
 
 .boton-carruselw{
     display: flex;
-    height: 32px;
-    width: auto;
+    max-height: 30px;
+    width: fit-content;
     border-radius: 16px;
     background-color: white;
     border: 1px solid #202020;
-    width: fit-content;
-    color: #373636;
-    color: white;
-    font-size: 14px;
-    font-family: 'Roboto', Arial, serif;
     cursor: pointer;
     margin: 12 12 3 3;
-    padding-left: 14;
-    padding-right: 14;
-
-
-
+    font-family: 'Roboto', Arial, serif;
 }
 
 .boton-carruselb{
     display: flex;
-    height: 32px;
-    width: auto;
+    max-height: 30px;
+    width: fit-content;
     border-radius: 16px;
     background-color: #373636;
-    border: 1px solid #202020;
-    width: fit-content;
-    color: white;
+    border: 1px solid #4c4c4c;
+    cursor: pointer;
+    margin: 12 12 3 3;
+    font-family: 'Roboto', Arial, serif;
+}
+
+.cat1{
+    display: flex;
+    width: max-content;
     color: #373636;
     font-size: 14px;
     font-family: 'Roboto', Arial, serif;
+    align-self: center;
     cursor: pointer;
-    margin: 12 12 3 3;
-    padding-left: 14;
-    padding-right: 14;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-top: 3px;
+}
 
+.cat{
+    display: flex;
+    width: max-content;
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', Arial, serif;
+    align-self: center;
+    cursor: pointer;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-top: 3px;
 }
