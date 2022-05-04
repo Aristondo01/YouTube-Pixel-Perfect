@@ -10,7 +10,9 @@ const App = () => (
         <TitleBar />
         <div className="cuerpo">
             <Menu />
-            <Carrusel />
+            <div className="videos">
+                <Carrusel />
+            </div>
         </div>
     </div>
 )

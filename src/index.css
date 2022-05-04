@@ -16,6 +16,15 @@
     max-height: auto;
     overflow-y: hidden;
     overflow-x: hidden;
+}
 
-
+.videos{
+    display: flex;
+    margin: 0;
+    background-color: #181818;
+    flex-direction: column;
+    min-height: auto;
+    max-height: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }

@@ -8,7 +8,6 @@
     "start": "webpack-dev-server",
     "build": "webpack",
     "lint": "eslint src/**"
-
   },
   "author": "Sebastian Aristondo",
   "license": "ISC",

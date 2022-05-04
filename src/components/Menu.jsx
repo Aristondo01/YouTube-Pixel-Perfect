@@ -39,7 +39,7 @@ const moreYT = [['YouTube Premium', ytp], ['Videojuegos', vg], ['Directo', direc
     ['Aprendizaje', learn], ['Deportes', sport]]
 
 const extras = [['Configuración', config], ['Historial de denuncias', denuncia], ['Ayuda', ayuda],
-    ['Enviar sugerencia', sugerencia]]
+    ['Enviar sugerencias', sugerencia]]
 
 const Menu = () => (
     <div className="Menu-Container">
