@@ -48,14 +48,14 @@ const Menu = () => (
             <text>Inicio</text>
         </div>
         {menu.map((obj) => (
-            <div className="Boton1-Container">
+            <div key={obj[0]} className="Boton1-Container">
                 <div className="Icon-container" style={{ backgroundImage: `url(${obj[1]})` }} />
                 <text>{obj[0]}</text>
             </div>
         ))}
         <hr />
         {menu2.map((obj) => (
-            <div className="Boton1-Container">
+            <div key={obj[0]} className="Boton1-Container">
                 <div className="Icon-container" style={{ backgroundImage: `url(${obj[1]})` }} />
                 <text>{obj[0]}</text>
             </div>
@@ -63,7 +63,7 @@ const Menu = () => (
         <hr />
         <text className="titulo">SUSCRIPCIONES</text>
         {Suscripciones.map((obj) => (
-            <div className="Boton1-Container">
+            <div key={obj[0]} className="Boton1-Container">
                 <div className="perfil-container" style={{ backgroundImage: `url(${obj[1]})` }} />
                 <text className="profile-name">{obj[0]}</text>
             </div>
@@ -75,14 +75,14 @@ const Menu = () => (
         <hr />
         <text className="titulo">MÁS DE YOUTUBE</text>
         {moreYT.map((obj) => (
-            <div className="Boton1-Container">
+            <div key={obj[0]} className="Boton1-Container">
                 <div className="Icon-container" style={{ backgroundImage: `url(${obj[1]})` }} />
                 <text>{obj[0]}</text>
             </div>
         ))}
         <hr />
         {extras.map((obj) => (
-            <div className="Boton1-Container">
+            <div key={obj[0]} className="Boton1-Container">
                 <div className="Icon-container" style={{ backgroundImage: `url(${obj[1]})` }} />
                 <text>{obj[0]}</text>
             </div>

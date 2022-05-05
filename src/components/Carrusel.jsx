@@ -13,7 +13,7 @@ const Carrusel = () => (
             </div>
             {
                 opciones.map((op) => (
-                    <div className="boton-carruselb">
+                    <div key={op} className="boton-carruselb">
                         <div className="cat">{op}</div>
                     </div>
                 ))
