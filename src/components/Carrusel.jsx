@@ -4,6 +4,8 @@ const opciones = ['Barra', 'Equimapiento de ejercicio', 'Hollow Knight', 'Clash 
     'Calistenia', 'Cine de ciencia ficción', 'Arte', 'Musica', 'Bitcoin', 'Franco Escamilla',
     'Personajes', 'Programación', 'Videojuego de sigilo', 'Subidas recientes',
     'En directo', 'Visto', 'Novedades para ti']
+
+const opcionesshuffle = opciones.sort(() => 0.5 - Math.random())
 const Carrusel = () => (
     <div>
         <hr className="hr-carrusel" />
@@ -12,7 +14,7 @@ const Carrusel = () => (
                 <div className="cat1">Todo</div>
             </div>
             {
-                opciones.map((op) => (
+                opcionesshuffle.map((op) => (
                     <div key={op} className="boton-carruselb">
                         <div className="cat">{op}</div>
                     </div>

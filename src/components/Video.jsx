@@ -1,12 +1,12 @@
 import './Video.css'
 import videosYT from '../../public/videos.json'
 
-// const randomvideos = videosYT.sort((a ,b) => 0.5 - Math.random())
+const randomvideos = videosYT.sort(() => 0.5 - Math.random())
 
 const Video = () => (
     <div className="video-contenedor">
         {
-            videosYT.map((video) => (
+            randomvideos.map((video) => (
                 <div key={video.titulo} className="video-contenido">
                     <div className="video-imagen" style={{ backgroundImage: `url(${video.imagen})` }}>
                         <div className="time">

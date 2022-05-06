@@ -17,8 +17,6 @@
 }
 
 .hr-carrusel{
-    display: flex;
-    flex-direction: row;
     width: 1297px;
     background-color: #383838;
     border: 0px;
