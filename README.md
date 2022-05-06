@@ -1,7 +1,7 @@
 # YouTube-Pixel-Perfect
 ***
 ## Introducción
-Para este proyecto se tenía como objetivo recrear de forma visual una página, la cual utilizara frecuentemente. Para el diseño se recreo Youtube con dimensiones de 
+Para este proyecto se tenía como objetivo recrear de forma visual una página, la cual utilizara frecuentemente. Para el diseño se recreo Youtube con dimensiones de 1509 x 714 px
 ***
 ## Tecnologías implementadas
 * ⚛ **React** — 18.0.0
