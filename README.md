@@ -1,5 +1,5 @@
 # YouTube-Pixel-Perfect
-<a href="https://github.com/Aristondo01/YouTube-Pixel-Perfect"><img src="https://www.google.com/search?q=youtube%20logo&tbm=isch&tbs=ic:trans&hl=es-419&sa=X&ved=0CAMQpwVqFwoTCMC9jO-hy_cCFQAAAAAdAAAAABAC&biw=1499&bih=699#imgrc=7lpY4YXqChY4RM" alt="React Bolt" width=128"></a>
+<a href="https://github.com/Aristondo01/YouTube-Pixel-Perfect"><img href="https://www.google.com/search?q=youtube%20logo&tbm=isch&tbs=ic:trans&hl=es-419&sa=X&ved=0CAMQpwVqFwoTCMC9jO-hy_cCFQAAAAAdAAAAABAC&biw=1499&bih=699#imgrc=7lpY4YXqChY4RM" alt="React Bolt" width=128"></a>
 ***
 ## Introducción
 Para este proyecto se tenía como objetivo recrear de forma visual una página, la cual utilizara frecuentemente. Para el diseño se recreo Youtube con dimensiones de 
