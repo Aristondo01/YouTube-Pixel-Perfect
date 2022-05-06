@@ -1,14 +1,14 @@
 .video-contenedor{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 24px;
-    background-color: purple;
+    background-color: transparent;
 }
 
 .video-contenido{
     display: flex;
     flex-direction: column;
-    background-color: #717171;
+    background-color: transparent;
     width: 295.99;
     height: 260.49;
 }
@@ -47,11 +47,57 @@
 }
 
 .perfilimagen{
-    display: flex;
-    width: 36px;
-    height: 36px;
+    min-width: 36px;
+    min-height: 36px;
+    max-width: 36px;
+    max-height: 36px;
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 50px;
     margin-top: 12px;
+    margin-right: 12px;
+}
+
+.footer-videos{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-texto{
+    display:flex;
+    flex-direction: column;
+}
+
+.titulo-video{
+    width: 223.99;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 15px 0px 0px 0px;
+    font-family:'Roboto', Arial, sans-serif;
+}
+
+.creador-contenido{
+    color: #AAAAAA;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 9px 0px 0px 0px;
+    font-family:'Roboto', Arial, sans-serif;
+}
+
+.vistas-contenido{
+    color: #AAAAAA;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 3px 0px 0px 0px;
+    font-family:'Roboto', Arial, sans-serif;
+}
+
+.verificatedimg{
+    width: 14px;
+    height: 14px;
+    background-image: url('../Images/verificated.svg');
+    margin: 8.5px 0px 0px 3px;
+    filter: invert(68%) sepia(20%) saturate(0%) hue-rotate(258deg) brightness(99%) contrast(84%);
+
 }

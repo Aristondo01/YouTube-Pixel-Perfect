@@ -49,6 +49,9 @@
     margin: 12 12 3 3;
     font-family: 'Roboto', Arial, serif;
 }
+.boton-carruselb:hover{
+    background-color:#4d4d4d
+}
 
 .cat1{
     display: flex;
