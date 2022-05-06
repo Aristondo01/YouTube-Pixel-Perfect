@@ -1,8 +1,30 @@
 .video-contenedor{
-    display: flex;
-    flex-direction: row;
+    width: 1242px;
+    height: 565px;
     padding: 24px;
     background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(4, 296px);
+    grid-gap: 16px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.video-contenedor::-webkit-scrollbar{
+    width: 8px;
+    background-color: transparent;
+    
+}
+
+.video-contenedor::-webkit-scrollbar-thumb{
+    display: flex;
+    background: #707170;
+    border-radius: 5px;
+    visibility: visible;
+}
+
+.video-contenedor::-webkit-scrollbar-track{
+    border-radius: 0;
+    margin-block-start: 6px;
 }
 
 .video-contenido{
@@ -79,6 +101,7 @@
 
 .creador-contenido{
     color: #AAAAAA;
+    height: 13.6;
     font-size: 12px;
     font-weight: 600;
     margin: 9px 0px 0px 0px;
@@ -89,7 +112,7 @@
     color: #AAAAAA;
     font-size: 12px;
     font-weight: 600;
-    margin: 3px 0px 0px 0px;
+    margin: 4px 0px 0px 0px;
     font-family:'Roboto', Arial, sans-serif;
 }
 

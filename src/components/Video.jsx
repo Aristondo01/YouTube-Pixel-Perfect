@@ -1,6 +1,8 @@
 import './Video.css'
 import videosYT from '../../public/videos.json'
 
+// const randomvideos = videosYT.sort((a ,b) => 0.5 - Math.random())
+
 const Video = () => (
     <div className="video-contenedor">
         {
@@ -17,7 +19,7 @@ const Video = () => (
                             <div className="titulo-video">{video.titulo}</div>
                             <div className="footer-videos">
                                 <div className="creador-contenido">{video.creador}</div>
-                                <div className="verificatedimg" />
+                                { video.verificado && <div className="verificatedimg" />}
                             </div>
                             <div className="vistas-contenido">{video.vistas}</div>
                         </div>
