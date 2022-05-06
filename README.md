@@ -1,4 +1,5 @@
 # YouTube-Pixel-Perfect
+<a href="https://github.com/Aristondo01/YouTube-Pixel-Perfect"><img src="https://www.google.com/search?q=youtube%20logo&tbm=isch&tbs=ic:trans&hl=es-419&sa=X&ved=0CAMQpwVqFwoTCMC9jO-hy_cCFQAAAAAdAAAAABAC&biw=1499&bih=699#imgrc=7lpY4YXqChY4RM" alt="React Bolt" width=128"></a>
 ***
 ## Introducción
 Para este proyecto se tenía como objetivo recrear de forma visual una página, la cual utilizara frecuentemente. Para el diseño se recreo Youtube con dimensiones de 
@@ -10,7 +11,7 @@ Para este proyecto se tenía como objetivo recrear de forma visual una página, 
 * 💖 **Lint** — ESlint
 * 🚀 **Webpack** — Hot Reloading 
 ***
-##Cómo comenzar
+## Cómo comenzar
 1. Clonar este repositorio con el siguiente link `https://github.com/Aristondo01/YouTube-Pixel-Perfect.git`
 2. Ve al directorio correspondiente `cd YouTube-Pixel-Perfect`
 3. Ejecuta `npm i` o `npm install` para instalar todas las dependencias
