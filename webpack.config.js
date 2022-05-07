@@ -1,6 +1,6 @@
-export default {
+module.exports = {
     mode: 'development',
-    entry: './src/index.js',
+    entry: './src/index.jsx',
     output: {
         filename: 'bundle.js',
         // publicPath:'/',

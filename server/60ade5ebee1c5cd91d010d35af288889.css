@@ -1,0 +1,215 @@
+.Barra{
+    background-color:#202020;
+    display:flex;
+    width:1509px;
+    height:56px;
+    margin:0;
+    align-items: start;
+    flex-direction: row;
+    padding-left: 11px;
+    padding-right: 16px;
+
+}
+::placeholder{
+    font-size: 16px;
+    padding-left: 4px;
+    font-family: 'Roboto','Noto',sans-serif;
+}
+.search
+{
+    display: flex;
+    width: 728px;
+    height:40px;
+    align-self: center;
+    flex-direction: row;
+    margin-left: 266;
+}
+.left
+{
+    display: flex;
+    width: 169px;
+    height:56px;
+    align-self: center;
+    flex-direction: row;
+}
+
+.right
+{
+    display: flex;
+    width: 225px;
+    height:40px;
+    align-self: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 91px;
+}
+
+.micro-button{
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+    height:40px;
+    width: 40px;
+    background-color:#181818;
+    border-radius: 50px;
+    border: 0;
+    margin-left: 8px;
+}
+
+.micro-image{
+    cursor: pointer;
+    display:flex;
+    align-self: center;
+    height:24px;
+    width: 24px;
+    background-image: url('../Images/micro.svg');
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert(97%) sepia(2%) saturate(5%) hue-rotate(91deg) brightness(116%) contrast(100%);
+
+}
+
+.Country
+{
+    color: #AAAAAA;
+    width: 12.79px;
+    height: 44px;
+    font-size: 9.21px;
+    align-self:center;
+    font-family:'Roboto', Arial, sans-serif;
+    margin-top: 15px;
+    margin-left: 4;
+}
+
+.lines{
+    cursor: pointer;
+    display:flex;
+    height:24px;
+    width: 24px;
+    background-color:transparent;
+    border: 0;
+    background-image: url('../Images/lines3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-left: 13px;
+    
+}
+.camera{
+    cursor: pointer;
+    display:flex;
+    height:24px;
+    width: 24px;
+    border: 0;
+    background-image: url('../Images/camara.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-right: 24px;
+    background-position: center;
+    filter: invert(97%) sepia(2%) saturate(5%) hue-rotate(91deg) brightness(116%) contrast(100%);
+}
+
+.box{
+    cursor: pointer;
+    display:flex;
+    height:24px;
+    width: 24px;
+    background-color:transparent;
+    border: 0;
+    background-image: url('../Images/cuadros.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-right: 24px;
+    background-position: center;
+    filter: invert(97%) sepia(2%) saturate(5%) hue-rotate(91deg) brightness(116%) contrast(100%);
+
+    
+}
+.bell{
+    cursor: pointer;
+    display:flex;
+    height: 24px;
+    width: 24px;
+    background-color:transparent;
+    border: 0;
+    background-image: url('../Images/campana.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-right: 26px;
+    background-position: center;
+    filter: invert(97%) sepia(2%) saturate(5%) hue-rotate(91deg) brightness(116%) contrast(100%);
+
+    
+}
+
+.profile{
+    cursor: pointer;
+    display:flex;
+    height: 32px;
+    width: 32px;
+    border-radius: 50px;
+    background-color:transparent;
+    border: 0;
+    background-image: url('../Images/perfil.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-left: 4px;
+    background-position: center;
+    
+}
+
+.lupa-button{
+    display:flex;
+    justify-content: center;
+    height:40px;
+    width: 63px;
+    background-color:#313131;
+    border:0;
+    border-radius: 1px;
+    
+}
+
+.lupa-image{
+    cursor: pointer;
+    display:flex;
+    align-self: center;
+    height:24px;
+    width: 24px;
+    border:0;
+    background-image: url('../Images/lupa.svg');
+    background-size: 24px ;
+    background-position: center;
+    margin-left: -1;
+    background-repeat: no-repeat;
+    filter: invert(97%) sepia(2%) saturate(5%) hue-rotate(91deg) brightness(116%) contrast(100%);
+    
+}
+
+input{
+    display:flex;
+    background-color:#121212;
+    height:40px;
+    width: 539px;
+    border: 1px solid #313131;
+    padding-top: 2;
+    font-weight: 400;
+    font-family:'Roboto', Arial, sans-serif;
+}
+
+.Logo{
+    cursor: pointer;
+    display:flex;
+    background-image: url('../Images/YT logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 20px;
+    align-self: center;
+    margin-left: 24px;
+
+}

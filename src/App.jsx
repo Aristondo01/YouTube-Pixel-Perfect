@@ -1,4 +1,3 @@
-import { createRoot } from 'react-dom/client'
 import TitleBar from './components/TitleBar.jsx'
 import Menu from './components/Menu.jsx'
 import Carrusel from './components/Carrusel.jsx'
@@ -20,5 +19,4 @@ const App = () => (
     </div>
 )
 
-const root = createRoot(document.getElementById('root'))
-root.render(<App />)
+export default App

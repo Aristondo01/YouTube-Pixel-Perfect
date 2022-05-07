@@ -1,0 +1,78 @@
+.contenido
+{
+    display: flex;
+    flex-direction: row;
+    width: 1252px;
+    height: 56px;
+    background-color: #202020;
+    padding-left: 22px;
+    padding-right: 22px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+.contenido::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+.hr-carrusel{
+    width: 1297px;
+    background-color: #383838;
+    border: 0px;
+    min-height: 0.5px;
+    margin: 0px;
+}
+
+.boton-carruselw{
+    display: flex;
+    max-height: 30px;
+    width: fit-content;
+    border-radius: 16px;
+    background-color: white;
+    border: 1px solid #202020;
+    cursor: pointer;
+    margin: 12 12 3 3;
+    font-family: 'Roboto', Arial, serif;
+}
+
+.boton-carruselb{
+    display: flex;
+    max-height: 30px;
+    width: fit-content;
+    border-radius: 16px;
+    background-color: #373636;
+    border: 1px solid #4c4c4c;
+    cursor: pointer;
+    margin: 12 12 3 3;
+    font-family: 'Roboto', Arial, serif;
+}
+.boton-carruselb:hover{
+    background-color:#4d4d4d
+}
+
+.cat1{
+    display: flex;
+    width: max-content;
+    color: #373636;
+    font-size: 14px;
+    font-family: 'Roboto', Arial, serif;
+    align-self: center;
+    cursor: pointer;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-top: 3px;
+}
+
+.cat{
+    display: flex;
+    width: max-content;
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', Arial, serif;
+    align-self: center;
+    cursor: pointer;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-top: 3px;
+}
