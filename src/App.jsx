@@ -4,7 +4,10 @@ import Carrusel from './components/Carrusel.jsx'
 import Video from './components/Video.jsx'
 
 import './index.css'
-
+/* Sebastian Aristondo Pérez 
+   Fecha de finalización 12/5/2022
+   Recreación Youtube
+*/
 const App = () => (
 
     <div className="indexs">
